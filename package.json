@@ -1,0 +1,25 @@
+{
+  "name": "remix-to-react-router-codemod",
+  "license": "MIT",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "build": "esbuild src/index.ts --outdir=dist --format=cjs --bundle"
+  },
+  "files": [
+    "README.md",
+    ".codemodrc.json",
+    "/dist/index.cjs"
+  ],
+  "type": "module",
+  "dependencies": {
+    "json5": "^2.2.3",
+    "@codemod.com/codemod-utils": "1.0.0",
+    "@types/node": "22.9.0",
+    "esbuild": "^0.27.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16",
+    "jscodeshift": "^17.3.0"
+  }
+}
