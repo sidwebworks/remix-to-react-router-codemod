@@ -2,6 +2,8 @@
 
 This is a fork of the original Remix to React Router codemod, with additional transformations to refactor code helpers like `json`, `redirect`, and `defer` to use the new React Router data API. Reducing the manual effort required to upgrade applications from Remix to React Router.
 
+I wrote this for my work at [Carbon](https://github.com/crbnos/carbon) - if you get stuck while migrating or need a reference point for any files or config feel free to check it out :)
+
 This codemod automates most of the manual steps outlined in the Remix to React Router upgrade guide.
 
 https://github.com/remix-run/react-router/blob/dev/docs/upgrading/remix.md
